@@ -1,0 +1,42 @@
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+  <div>
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" formControlName="firstName"> <br>
+    <label for="lastName">Last Name</label>
+    <input type="text" id="firstName" formControlName="lastName">
+    <br>
+    <label for="gender">Gender</label><br>
+     <label for="male">Male</label>
+     <input type="radio" formControlName="male" id="male">
+     <label for="female">Female</label>
+    <input type="radio" formControlName="female" id="female">
+    <br>
+      <label for="dob">DOB</label>
+      <input type="date" formControlName="dob" id="dob">
+   <br>
+<label for="brand">Preffered Brands</label>
+<select name="brand" id="brand" formControlName="brand">
+  <option value="brand1">brand1</option>
+  <option value="brand2">brand2</option>
+  <option value="brand3">brand3</option>
+  <option value="brand4">brand4</option>
+</select>
+   <br>
+<label for="fashionStyle">Preffered Fashion Style</label>
+<select name="fashionStyle" id="fashionStyle" formControlName="fashionStyle">
+  <option value="fashionStyle1">fashionStyle1</option>
+  <option value="fashionStyle2">fashionStyle2</option>
+  <option value="fashionStyle3">fashionStyle3</option>
+  <option value="fashionStyle4">fashionStyle4</option>
+</select>
+<br>
+<label for="location">location</label>
+<br>
+<label for="address">Address</label>
+  <input type="text" id="address" formControlName="address">
+  <button class="button" type="submit">Submit</button>
+
+  </div>
+
+  
+</form>
