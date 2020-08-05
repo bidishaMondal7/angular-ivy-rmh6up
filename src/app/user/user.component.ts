@@ -26,6 +26,7 @@ export class UserComponent implements OnInit{
   }
   onSubmit(userData){
     console.log(userData);
+    alert('your details are recorded!!!');
     console.warn('adding data',userData);
     this.checkoutForm.reset();
   }
