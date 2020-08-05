@@ -1,2 +1,5 @@
 /* Add application styles & imports to this file! */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+body{
+  background-image: 'https://cdn.pixabay.com/photo/2017/06/27/17/32/sew-2448191_960_720.jpg';
+}
